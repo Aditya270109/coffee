@@ -1,0 +1,221 @@
+.image {
+    
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(32, 32, 32, 0.5)), url(https://cdn.shopify.com/s/files/1/2062/4231/files/EQUATORCOFFEES_Francisco_Roasting_on_the_Peregrine-0084_a337d0b6-80d0-4af4-9661-a56420a9d5b5_2048x.jpg?v=1616804240);
+    background-repeat: no-repeat;
+    background-size: 100% 600px;
+    height: 800px;
+    max-height: 600px;
+   
+}
+.topnav {
+    background-image: url(https://www.indiancoffeehousejabalpur.com/assets/img/amer-greens-b1.jpg);
+    overflow: hidden;
+    
+}
+
+
+.topnav a {
+  float: left;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+
+.topnav a.active {
+  background-color: blue;
+  color: white;
+}
+
+
+.topnav-right {
+  float: right;
+}
+
+.text-image{
+  color: #fff;
+  text-align: center;
+  filter: brightness(120%);
+  margin-top: 160px;
+}
+.team-header {
+  margin-top: 100px;
+}
+.headtext {
+  display: block;
+  font-size: 5rem;
+  font-weight: 6000;
+  
+}
+.headcontent{
+  font-size: 2rem;
+  color: #fff;
+}
+
+.meet-team{
+  text-align: center;
+  margin-top: 50px;
+}
+
+
+.column {
+  float: left;
+  width: 31.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+.container {
+  padding: 0 16px;
+}
+
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+.row {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 100px;
+}
+.numbers {
+  height: 200px;
+  background-color: #000;
+  margin-top: 50px;
+  
+  color: white;
+}
+span.b {
+  display: inline-block;
+  width: 20%;
+
+
+
+}
+.b{
+  margin-left: 145px;
+  margin-top: 35px;
+  text-align: center;
+}
+.c{
+  margin-top: 1px;
+}
+.about {
+  margin-left: 18%;
+  margin-top: 75px;
+  margin-right: 18%;
+}
+.abouthead {
+  text-align: center;
+}
+.imagecontent{
+  height: 300px ;
+  width: 300px ;
+
+  padding-left: 10px;
+}
+.img1, .content, .content2 {
+  display: inline-block;
+}
+.img1{
+  margin: 20px;
+  margin-top: 50px;
+  width: 300px;
+  height: 300px;
+  display: inline-block;
+  background: transperant;    
+
+}
+.content {
+  vertical-align: top;
+  margin-top: 50px;
+  margin-left: 100px;
+  text-align: right;
+  line-height: 8mm;
+}
+.content2 {
+  line-height: 8mm;
+  text-align: left;
+  margin-left: -160px;
+  display: inline-block;
+}
+.img2 {
+
+  display: inline-block;
+  margin-left: 600px;
+  vertical-align: top;
+  margin-top: -335px;
+}
+
+.contact{
+  background-color: #000;
+  height: 150px;
+  color: #fff;
+}
+.inner-content{
+  text-decoration: underline;
+  text-align: left;
+  display: inline-block;
+  margin-left: 18%;
+  padding-top: 20px;
+}
+
+.inner-data1 {
+  padding-top: 5px;
+  margin-left: 30%;
+  display: inline-block;
+
+}
+.inner-data2 {
+  margin-left: 65%;
+  display: inline-block;
+  margin-top: -19px;
+}
+
+
+
+
